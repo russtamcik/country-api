@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+  <title>Rest Countries</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Where in the world?</h1>
+    <button class="toggle"><i class="far fa-moon moon"></i>Dark Mode</button>
+  </div>
+  <div class="container">
+    <div class="form-control">
+      <input type="text" placeholder="Search for a country…" class="country-search">
+      <i class="fas fa-search search"></i>
+    </div>
+    <div class="drop-down-container">
+      <div class="drop-down">
+        <p>Filter by Region </p>
+        <button><i class="fas fa-chevron-down"></i></button>
+      </div>
+      <div class="drop show-drop-down">
+        <p class="region">All</p>
+        <p class="region">Africa</p>
+        <p class="region">America</p>
+        <p class="region">Asia</p>
+        <p class="region">Europe</p>
+        <p class="region">Oceania</p>
+      </div>
+    </div>
+  </div>
+  <div class="countries">
+
+  </div>
+
+  <div class="country-modal show">
+    <!-- <butto class="back">Back</butto>
+    <div class="modal">
+      <div class="left-modal">
+        <img src="https://flagcdn.com/w320/za.png" alt="">
+      </div>
+      <div class="right-modal">
+        <h1>Germany</h1>
+        <div class="modal-info">
+          <div class="inner-left inner">
+            <p><strong>Native Name: </strong>${data.population}</p>
+            <p><strong>Population: </strong>${data.region}</p>
+            <p><strong>Region: </strong>${data.capital}</p>
+            <p><strong>Sub Region: </strong>${data.capital}</p>
+          </div>
+          <div class="inner-right inner">
+            <p><strong>Capital: </strong>${data.population}</p>
+            <p><strong>Top level domain: </strong>${data.region}</p>
+            <p><strong>Currencies: </strong>${data.capital}</p>
+            <p><strong>Languages: </strong>${data.capital}</p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </div>
+
+  <script src="./getData.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
